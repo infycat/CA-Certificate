@@ -1,0 +1,26 @@
+# User-managed certificate material and generated output
+*.key
+*.key.pem
+*.pem
+*.crt
+*.cer
+*.der
+*.p12
+*.pfx
+*.csr
+*.csr.pem
+issued/
+csr/
+crash.log
+mcp.log
+
+# Local build output
+build/
+dist/
+releases/*.zip
+releases/CA-Certificate-v1.0.0-windows-x64/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
